@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/4_23_22_1.loader.js"></script>
+    <script src="Build/4_25_22_1.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -18,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/4_23_22_1.data",
-        frameworkUrl: "Build/4_23_22_1.framework.js",
-        codeUrl: "Build/4_23_22_1.wasm",
+        dataUrl: "Build/4_25_22_1.data",
+        frameworkUrl: "Build/4_25_22_1.framework.js",
+        codeUrl: "Build/4_25_22_1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Dogwater Games",
         productName: "Surfpunk Infinity",
